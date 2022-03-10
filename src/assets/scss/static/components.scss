@@ -1,0 +1,31 @@
+.flex {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: flex-end;
+}
+.flex.flexRow {
+	flex-direction: column;
+	justify-content: center;
+}
+.h100 {
+	height: 100vh;
+}
+.w100 {
+	width: 100%;
+}
+button {
+	font-size: 18px;
+	font-weight: 500;
+	color: var(--text-dark);
+	background-color: var(--cta);
+	border: solid 1px var(--cta);
+	border-radius: 8px;
+	outline: none;
+	padding: 2px 40px;
+	transition: var(--transition);
+}
+button:hover {
+	background-color: transparent;
+	color: var(--cta);
+}

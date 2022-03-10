@@ -1,0 +1,33 @@
+/* ----- SET:COLOR:NAMES ------------------------- */
+:root {
+	--white: #ffffff;
+	--gainsboro: #e6e6e6;
+	--black: #000000;
+	--nero: #1f1f1f;
+	--kobi: #e5989b;
+}
+
+/* ----- SET:COLOR:VARIABLES ------------------------- */
+:root {
+	/* ----- SET:COLOR:BACKGROUND ------------------------- */
+	--background-dark: var(--black);
+	--background-dark-alt: var(--nero);
+	--background-light: var(--white);
+	--background-light-alt: var(--gainsboro);
+
+	--background: var(--background-dark-alt);
+	--background-alt: var(--background-dark);
+
+	/* ----- SET:COLOR:TEXT ------------------------- */
+	--text-dark: var(--black);
+	--text-dark-alt: var(--nero);
+	--text-light: var(--white);
+	--text-light-alt: var(--gainsboro);
+
+	--text: var(--text-light-alt);
+	--text-alt: var(--text-light);
+
+	/* ----- SET:COLOR:CTA ------------------------- */
+	--cta: var(--kobi);
+	--cta-alt: var(--kobi);
+}

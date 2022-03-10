@@ -1,0 +1,14 @@
+/* ----- SET:TRANSITION:NAMES ------------------------- */
+:root {
+	--fast: 0.6s ease all;
+	--medium: 1s ease all;
+	--slow: 2s ease all;
+}
+
+/* ----- SET:TRANSITION:VARIABLES ------------------------- */
+:root {
+	--transition: var(--fast);
+	--transition-slow: var(--slow);
+	--transition-medium: var(--medium);
+	--transition-fast: var(--fast);
+}

@@ -1,0 +1,27 @@
+{
+	"name": "WindUp-Vue3-TypeScript-Template",
+	"private": true,
+	"author": "Clockwork Studios Ltd",
+	"license": "Proprietary",
+	"version": "0.1.0",
+	"scripts": {
+		"dev": "vite --host",
+		"build": "vue-tsc --noEmit && vite build"
+	},
+	"dependencies": {
+		"axios": "^0.21.1",
+		"bootstrap": "^5.1.3",
+		"core-js": "^3.6.5",
+		"vue": "^3.2.25",
+		"vue-router": "^4.0.0-0",
+		"vuex": "^4.0.0-0"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^2.2.0",
+		"sass-loader": "^7.2.0",
+		"sass": "^1.22.10",
+		"typescript": "^4.5.4",
+		"vite": "^2.8.0",
+		"vue-tsc": "^0.29.8"
+	}
+}
